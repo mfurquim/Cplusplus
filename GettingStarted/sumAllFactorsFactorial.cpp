@@ -42,9 +42,7 @@ void unique_prime_factorization(const int &i, map<int,int> &factors)
 	int number = i;
 	for (int j = 2; j <= number; j++) {
 
-		double division = 0;
-		double intpart = 0;
-		double fractpart = 0;
+		double division = 0, intpart = 0, fractpart = 0;
 
 		do {
 			division = ((double) number) / ((double) j);
